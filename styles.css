@@ -36,12 +36,29 @@ img {
     display: flex;
     flex-direction: column;
     flex: 1;
+    padding-bottom: 24px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 .hero-img {
     max-width: 400px;
 }
 
+.title>p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 8px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0px;
+}
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -59,7 +76,7 @@ img {
 }
 
 button {
-    background-color: rgb(50, 103, 248);
+    background-color: #3882f6;
     font-size: 18px;
     padding: 4px 8px;
     border: 1px;
