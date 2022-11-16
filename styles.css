@@ -17,7 +17,7 @@ ul {
 a {
     color: #f9faf8;
     text-decoration: none;
-}
+} 
 
 img {
     max-width: 200px;
@@ -85,6 +85,7 @@ h2 {
 }
 
 button {
+    color: #f9faf8;
     background-color: #3882f6;
     font-size: 14px;
     padding: 4px 16px;
