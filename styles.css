@@ -112,6 +112,11 @@ button {
     font-size: 18px;
 }
 
+.sample-box>img {
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
 .quote {
     font-size: 30px;
     color: #1f2937;
