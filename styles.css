@@ -25,7 +25,6 @@ img {
 .header,
 .content,
 .quote,
-.call,
 .footer {
     padding: 1% 15%;
 }
@@ -59,6 +58,14 @@ h1 {
     font-weight: 900;
     margin: 0px;
 }
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -77,17 +84,73 @@ h1 {
 
 button {
     background-color: #3882f6;
-    font-size: 18px;
-    padding: 4px 8px;
+    font-size: 14px;
+    padding: 4px 16px;
     border: 1px;
-    border-radius: 12px;
+    border-radius: 8px;
     border-style: solid;
     border-color:black;
 }
 
 .content {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
 }
 
+.sample {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
+.sample-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    gap: 20px;
+    font-size: 18px;
+}
 
+.quote {
+    font-size: 30px;
+    color: #1f2937;
+    font-weight: 200;
+    background-color: #e5e7eb;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: end;
+    margin: 0px 36px;
+}
+
+.call {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 20px 40px;
+    border-radius: 12px;
+}
+
+.call>button {
+    border-color: #f9faf8;
+}
+
+div>strong {
+    font-size: 24px;
+}
+
+.outer {
+    padding: 2% 13%;
+}
+
+.footer {
+    color: #e5e7eb;
+    background-color: #1f2937;
+    font-size: 12px;
+    text-align: center;
+}
