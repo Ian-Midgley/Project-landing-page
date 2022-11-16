@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    height: 100%;
 }
 
 
@@ -64,6 +65,7 @@ h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    margin: 18px;
 }
 
 .header-top {
@@ -95,7 +97,9 @@ button {
 .content {
     display: flex;
     flex-direction: column;
-    align-items: center;   
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
 }
 
 .sample {
