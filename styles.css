@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     margin: 0px;
     height: 100%;
+    font-family: "times new roman", times, georgia, serif;
 }
 
 
@@ -127,6 +128,7 @@ button {
     color: #1f2937;
     font-weight: 200;
     background-color: #e5e7eb;
+    font-family:  garamond, Courier, serif;
 }
 
 .author {
