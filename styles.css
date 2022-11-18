@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 } 
 
+a:hover {
+    color: rgb(37, 76, 250);
+}
+
 img {
     max-width: 200px;
 }
@@ -93,6 +97,10 @@ button {
     border-radius: 8px;
     border-style: solid;
     border-color:black;
+}
+
+button:hover {
+    background-color: #0056e0;
 }
 
 .content {
