@@ -184,7 +184,7 @@ div>strong {
 }
 
 @media (max-width: 450px) {
-    .hero-img, {
+    .hero-img {
         max-width: 85%;
     }
 
